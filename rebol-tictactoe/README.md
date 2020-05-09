@@ -9,5 +9,5 @@ The easy way is by downloading [Rebol Viewer](http://www.rebol.com/download-view
 
 ## Contributing:
 
-Simon Parra Hernandez [Github](https://github.com/Simonster04/) [Twitter](https://twitter.com/Simonster04/)
-Alejandro Arbelaez [Github](https://github.com/AlejandroArbelaez21/) [Twitter](https://twitter.com/Alejand11345909)
+- Simon Parra Hernandez [Github](https://github.com/Simonster04/) [Twitter](https://twitter.com/Simonster04/)
+- Alejandro Arbelaez [Github](https://github.com/AlejandroArbelaez21/) [Twitter](https://twitter.com/Alejand11345909)
