@@ -30,70 +30,70 @@ Also a simple variable declaration:
 You have to type the usage command to start the game:
 
 
-user@ubuntu:~/Perl_Tictactoc/Perl_Tictactoc$ perl game.pl
+user@ubuntu:~/Perl_Tictactoc/Perl_Tictactoc$ perl game2.pl
 
         Player 1 (✿) v/s Player 2 (♥)
 
-                             
+
                     |   |    
                   7 | 8 | 9  
-                 ___|___|___ 
+                 ___|___|___
                     |   |    
                   4 | 5 | 6  
-                 ___|___|___ 
+                 ___|___|___
                     |   |    
                   1 | 2 | 3  
                     |   |    
 
-              Player 1's turn: 
+              Player 1's turn:
 
 You have to select the position to put dePlayer 1 (✿) and tip the number and prees Enter.
 Then, the number is replaced for the "✿" and "the game will ask "Player 2 (♥)'s" position.
 
         Player 1 (✿) v/s Player 2 (♥)
 
-                             
+
                     |   |    
                   7 | 8 | 9  
-                 ___|___|___ 
+                 ___|___|___
                     |   |    
                   4 | ✿ | 6  
-                 ___|___|___ 
+                 ___|___|___
                     |   |    
                   1 | 2 | 3  
                     |   |    
 
-              Player 2's turn: 
+              Player 2's turn:
 
 
 As a player, you have to do this till the game is over for example:
 
         Player 1 (✿) v/s Player 2 (♥)
 
-                             
+
                     |   |    
                   7 | 8 | ♥  
-                 ___|___|___ 
+                 ___|___|___
                     |   |    
                   4 | ✿ | 6  
-                 ___|___|___ 
+                 ___|___|___
                     |   |    
                   1 | 2 | 3  
                     |   |    
 
-              Player 1's turn: 
+              Player 1's turn:
 
 like this until some player wins:
 
         Player 1 (✿) v/s Player 2 (♥)
 
-                             
+
                     |   |    
                   ✿ | 8 | ♥  
-                 ___|___|___ 
+                 ___|___|___
                     |   |    
                   4 | ✿ | 6  
-                 ___|___|___ 
+                 ___|___|___
                     |   |    
                   ♥ | 2 | ✿  
                     |   |    
