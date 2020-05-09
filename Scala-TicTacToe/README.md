@@ -8,15 +8,19 @@
 
 Scala - a compiler based and a multi-paradigm programming language which is compact, fast and efficient
 
-### How to Install?
+### How to Install and run it?
 
 This is the way to compile project
 
-`$ scalac Main.scala Board.scala`
+`$ scalac Main.scala Board.scala -d TTT.jar `
+
+And then execute it
+
+`$ scala TTT.jar   `
 
 ### How to Play?
 
-a tic tac toe board will be print on screen and
+A tic tac toe board will be print on screen and
 the system will ask the players to insert a valid
 position to place "X's" or "O's".
 if the position entered is valid, a new board will
@@ -46,9 +50,3 @@ Sebastián Ocampo - [Github](https://github.com/Darkares23) / [Twitter](https://
 Santiago Arboleda Londoño - [Github](https://github.com/monoprosito) / [Twitter](https://twitter.com/msarboledal)
 
 Juan Calle - [Github](https://github.com/johnconnor77) / [Twitter](https://twitter.com/jfcalleh)
-
-
-
-
-
-
