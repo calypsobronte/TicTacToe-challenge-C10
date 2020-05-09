@@ -3,7 +3,14 @@
 ## Hack day: TicTacToe challenge
 
 ### Description
-[]
+---
+> - By group of 5~ students (you can regroup based on attendance) - but The evaluation will be as campus!
+- Each language can only be used once per campus
+- Each group must develop at least one Tic Tac Toe version - feel free to develop as more as you can - but don’t forget to help your peers!
+- If you are using a Blog platform, you can use one of your DevOps server or request a free trial in AWS/Heroku/Google Cloud/etc.
+- Only languages bellow are allowed for implementing the Tic Tac Toe
+- Each game can be one player (against a bot) or 2 players
+---
 
 ### Authors
 
@@ -17,6 +24,9 @@
 * [Paula Fuentes](https://github.com/pafuentess)
 * [Sara Hincapié](https://github.com/shincap8)
 * [Oscar Tapias](https://github.com/OscarDRT)
+* [Kevin Giraldo](https://github.com/doouh)
+* [Camilo Isaza](https://github.com/andresmelek)
+* [Santiago Aldana](https://github.com/paisap)
 * [Jorge Salazar](https://github.com/jormao)
 * [Juan Sebastian Ocampo Hoyos](https://github.com/darkares23)
 * [Juan Calle](https://github.com/johnconnor77/)
