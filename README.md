@@ -17,3 +17,8 @@
 * [Paula Fuentes](https://github.com/pafuentess)
 * [Sara Hincapié](https://github.com/shincap8)
 * [Oscar Tapias](https://github.com/OscarDRT)
+* [Jorge Salazar](https://github.com/jormao)
+* [Juan Sebastian Ocampo Hoyos](https://github.com/darkares23)
+* [Juan Calle](https://github.com/johnconnor77/)
+* [Christian Suárez](https://github.com/Thorlak2202)
+* [Santiago Arboleda Londoño](https://github.com/monoprosito)
