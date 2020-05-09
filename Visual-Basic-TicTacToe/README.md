@@ -2,7 +2,7 @@
 ---
 <p align="center">
 	<a href="https://holbertonschool.com">
-		<img alt="holbie" title="holbie" src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/9/1fd884ab1d04976c5b6f.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20200509%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200509T032855Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=dac405b384287105e92468e73eb81524d8536c4b6a32905fb0cd88324d9b825b" width="350"> </a>
+		<img alt="holbie" title="holbie" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tic_tac_toe.svg/1200px-Tic_tac_toe.svg.png" width="350"> </a>
 
 ---
 ## Table of Contents
@@ -45,7 +45,7 @@
 | File Name | Description and contents |
 | --- | --- |
 | [TicTacToe.exe]() | Executable game.|
-| []() | File where the are all the files where the magic happens.|
+| [TicTacToe]() | File where the are all the files where the magic happens.|
 ---
 ---
 
