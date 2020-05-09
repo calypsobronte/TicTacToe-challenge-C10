@@ -1,4 +1,4 @@
-#TicTacToe
+<h1 align ="center"> TicTacToe() </h1><br>
 ---
 <p align="center">
 	<a href="https://holbertonschool.com">
@@ -41,7 +41,11 @@
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/qkpdTKm/Captura.png" alt="Captura" border="10" width="350"></a>
 </p>
+
+
+
 ---
+
 ## Files
 
 ---
