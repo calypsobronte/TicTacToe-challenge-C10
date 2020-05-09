@@ -22,3 +22,5 @@
 * [Juan Calle](https://github.com/johnconnor77/)
 * [Christian Suárez](https://github.com/Thorlak2202)
 * [Santiago Arboleda Londoño](https://github.com/monoprosito)
+* [Lina Montaño](https://github.com/calypsobronte)
+* [Kelly Villa](https://github.com/02KellyV)
