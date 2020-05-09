@@ -40,7 +40,7 @@
 
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/qkpdTKm/Captura.png" alt="Captura" border="0"></a>
----
+</p>
 ---
 ## FILES
 
