@@ -1,0 +1,21 @@
+    body {
+        background-image: url("imagenes/prangers\ _2160px.jpg");
+        background-size: 100%;
+        display: block;
+    }
+    
+    .wallpaper {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        position: absolute;
+    }
+    
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+    
+    img {
+        max-width: 350px;
+    }

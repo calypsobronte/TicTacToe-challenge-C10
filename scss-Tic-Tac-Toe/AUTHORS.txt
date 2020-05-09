@@ -1,0 +1,11 @@
+#Authors of the project Tic-tac-toe power ranger:
+andres0191
+Andres Garcia <andres_felipe0191@hotmail.com>
+towasme
+Tomas Mejia <towasm@gmail.com>
+edw10
+Eduwar Osorno <edward-1094@hotmail.com>
+evertcolombia
+Evert Escalante <evertescalante@gmail.com>
+jackeado
+Pablo Andres SAnchez <pabsanchez@gmail.com>

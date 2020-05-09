@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>AirBnb Clone</title>
+    <link rel="stylesheet" href="style/tictac.css">
+  </head>
+  <body>
+    <input type="radio" id="block-1-1" class="player1">
+    <label for="block" class="turno-1">
+  </body>
+</html>

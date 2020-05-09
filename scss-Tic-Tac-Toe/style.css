@@ -1,0 +1,177 @@
+.tictac {
+  font-family: 'Open Sans', sans-serif;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 38%;
+  position: relative;
+  width: 300px;
+}
+.tictac input[type="radio"] {
+  display: none;
+}
+.tictac input[type="radio"]:checked + label {
+  cursor: default;
+  z-index: 10 !important;
+}
+.tictac input[type="radio"].player1 + label:after {
+  content: url(imagenes/ranger_red.png);
+}
+.tictac input[type="radio"].player2 + label:after {
+  content: url(imagenes/ranger_black.png);
+}
+.tictac input[type="radio"].player1:checked + label:after, .tictac input[type="radio"].player2:checked + label:after {
+  opacity: 1;
+}
+.tictac input[type="radio"].player1:checked + label {
+  background-color: #f89c08;
+}
+.tictac input[type="radio"].player2:checked + label {
+  background-color: #0a2df1fd;
+}
+.tictac input[type="radio"].turno-1 + label {
+  z-index: 1;
+}
+.tictac input[type="radio"].turno-2 + label {
+  z-index: 2;
+}
+.tictac input[type="radio"].turno-3 + label {
+  z-index: 3;
+}
+.tictac input[type="radio"].turno-4 + label {
+  z-index: 4;
+}
+.tictac input[type="radio"].turno-5 + label {
+  z-index: 5;
+}
+.tictac input[type="radio"].turno-6 + label {
+  z-index: 6;
+}
+.tictac input[type="radio"].turno-7 + label {
+  z-index: 7;
+}
+.tictac input[type="radio"].turno-8 + label {
+  z-index: 8;
+}
+.tictac input[type="radio"].turno-9 + label {
+  z-index: 9;
+}
+.tictac input[type="radio"].turno-1 + label {
+  display: block;
+}
+.tictac input[type="radio"].turno-1:checked ~ .turno-2 + label {
+  display: block;
+}
+.tictac input[type="radio"].turno-2:checked ~ .turno-3 + label {
+  display: block;
+}
+.tictac input[type="radio"].turno-3:checked ~ .turno-4 + label {
+  display: block;
+}
+.tictac input[type="radio"].turno-4:checked ~ .turno-5 + label {
+  display: block;
+}
+.tictac input[type="radio"].turno-5:checked ~ .turno-6 + label {
+  display: block;
+}
+.tictac input[type="radio"].turno-6:checked ~ .turno-7 + label {
+  display: block;
+}
+.tictac input[type="radio"].turno-7:checked ~ .turno-8 + label {
+  display: block;
+}
+.tictac input[type="radio"].turno-8:checked ~ .turno-9 + label {
+  display: block;
+}
+.tictac input[type="radio"].left + label {
+  left: 0;
+}
+.tictac input[type="radio"].top + label {
+  top: 0;
+}
+.tictac input[type="radio"].middle + label {
+  left: 100px;
+}
+.tictac input[type="radio"].right + label {
+  left: 200px;
+}
+.tictac input[type="radio"].center + label {
+  top: 100px;
+}
+.tictac input[type="radio"].bottom + label {
+  top: 200px;
+}
+.tictac input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ .end {
+  display: block;
+}
+.tictac input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ input[type="radio"]:checked ~ .end > h3:before {
+  content: "It is a tie!";
+}
+.tictac .player1.uno-column:checked ~ .player1.uno-column:checked ~ .player1.uno-column:checked ~ .end, .tictac .player1.two-column:checked ~ .player1.two-column:checked ~ .player1.two-column:checked ~ .end, .tictac .player1.three-column:checked ~ .player1.three-column:checked ~ .player1.three-column:checked ~ .end, .tictac .player1.uno-row:checked ~ .player1.uno-row:checked ~ .player1.uno-row:checked ~ .end, .tictac .player1.two-row:checked ~ .player1.two-row:checked ~ .player1.two-row:checked ~ .end, .tictac .player1.three-row:checked ~ .player1.three-row:checked ~ .player1.three-row:checked ~ .end, .tictac .player1.uno-diagonal:checked ~ .player1.uno-diagonal:checked ~ .player1.uno-diagonal:checked ~ .end, .tictac .player1.two-diagonal:checked ~ .player1.two-diagonal:checked ~ .player1.two-diagonal:checked ~ .end {
+  display: block;
+}
+.tictac .player1.uno-column:checked ~ .player1.uno-column:checked ~ .player1.uno-column:checked ~ .end h3:before, .tictac .player1.two-column:checked ~ .player1.two-column:checked ~ .player1.two-column:checked ~ .end h3:before, .tictac .player1.three-column:checked ~ .player1.three-column:checked ~ .player1.three-column:checked ~ .end h3:before, .tictac .player1.uno-row:checked ~ .player1.uno-row:checked ~ .player1.uno-row:checked ~ .end h3:before, .tictac .player1.two-row:checked ~ .player1.two-row:checked ~ .player1.two-row:checked ~ .end h3:before, .tictac .player1.three-row:checked ~ .player1.three-row:checked ~ .player1.three-row:checked ~ .end h3:before, .tictac .player1.uno-diagonal:checked ~ .player1.uno-diagonal:checked ~ .player1.uno-diagonal:checked ~ .end h3:before, .tictac .player1.two-diagonal:checked ~ .player1.two-diagonal:checked ~ .player1.two-diagonal:checked ~ .end h3:before {
+  content: "Power Ranger 1 wins!" !important;
+}
+.tictac .player2.uno-column:checked ~ .player2.uno-column:checked ~ .player2.uno-column:checked ~ .end, .tictac .player2.two-column:checked ~ .player2.two-column:checked ~ .player2.two-column:checked ~ .end, .tictac .player2.three-column:checked ~ .player2.three-column:checked ~ .player2.three-column:checked ~ .end, .tictac .player2.uno-row:checked ~ .player2.uno-row:checked ~ .player2.uno-row:checked ~ .end, .tictac .player2.two-row:checked ~ .player2.two-row:checked ~ .player2.two-row:checked ~ .end, .tictac .player2.three-row:checked ~ .player2.three-row:checked ~ .player2.three-row:checked ~ .end, .tictac .player2.uno-diagonal:checked ~ .player2.uno-diagonal:checked ~ .player2.uno-diagonal:checked ~ .end, .tictac .player2.two-diagonal:checked ~ .player2.two-diagonal:checked ~ .player2.two-diagonal:checked ~ .end {
+  display: block;
+}
+.tictac .player2.uno-column:checked ~ .player2.uno-column:checked ~ .player2.uno-column:checked ~ .end h3:before, .tictac .player2.two-column:checked ~ .player2.two-column:checked ~ .player2.two-column:checked ~ .end h3:before, .tictac .player2.three-column:checked ~ .player2.three-column:checked ~ .player2.three-column:checked ~ .end h3:before, .tictac .player2.uno-row:checked ~ .player2.uno-row:checked ~ .player2.uno-row:checked ~ .end h3:before, .tictac .player2.two-row:checked ~ .player2.two-row:checked ~ .player2.two-row:checked ~ .end h3:before, .tictac .player2.three-row:checked ~ .player2.three-row:checked ~ .player2.three-row:checked ~ .end h3:before, .tictac .player2.uno-diagonal:checked ~ .player2.uno-diagonal:checked ~ .player2.uno-diagonal:checked ~ .end h3:before, .tictac .player2.two-diagonal:checked ~ .player2.two-diagonal:checked ~ .player2.two-diagonal:checked ~ .end h3:before {
+  content: "Power Ranger 2 wins!" !important;
+}
+.tictac label {
+  background-color: #d3c5c2e3;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+  height: 90px;
+  margin: 5px;
+  position: absolute;
+  width: 90px;
+}
+.tictac label:hover {
+  background-color: #3d4250;
+}
+.tictac label:hover:after {
+  opacity: 0.4;
+}
+.tictac label:after {
+  left: 0;
+  font-family: "FontAwesome";
+  font-size: 45px;
+  margin-top: -22.5px;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  top: 50%;
+  width: 100%;
+}
+.tictac .end {
+  background: rgba(255, 255, 255, 0.8);
+  bottom: 5px;
+  color: #3d4250;
+  display: none;
+  left: 5px;
+  padding-top: 55px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  text-align: center;
+  z-index: 11;
+}
+.tictac .end h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+.tictac .end a {
+  background-color: #3d4250;
+  border-radius: 4px;
+  color: #fff;
+  padding: 14px 45px;
+  text-decoration: none;
+}
+.tictac .end a:hover {
+  background-color: #262934;
+  cursor: pointer;
+}
