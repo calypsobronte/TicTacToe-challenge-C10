@@ -1,9 +1,7 @@
 # Tic Tac Toe:
 
 The classic game made with Rebol. Only available for two players.
-<p aligne="center">
 ![img](https://i.ibb.co/CQYW1Hj/Whats-App-Image-2020-05-08-at-11-49-05-PM.jpg)
-</p>
 
 ## Usage:
 
